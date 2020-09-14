@@ -61,10 +61,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+    Node allows to run js outside of a browser, express expanda functionality such as routing and middleware capabilities.
+
 1. Understand and explain the use of Middleware?
+    middleware allows you to access functions on the req and res and acts in a cascading style.
+
 1. The basic principles of the REST architectural style.
+
+
 1. Understand and explain the use of Express Routers.
+    Express routers allow routing of different funcitons or middleware. allows you to access just the create/post function.
+
 1. Describe tooling used to manually test the correctness of an API.
+    postman is used to test the functionality of the api without a front end.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -85,9 +94,9 @@ Your finished project must include all of the following requirements:
 
 #### NPM Scripts
 
-- [ ] An _npm script_ named _"server"_ that uses `nodemon`to run the API server.
-- [ ] Use _nodemon_ as a development time dependency only that is not deployed to production.
-- [ ] An _npm script_ named _"start"_ that uses `node` to run the API server.
+- [x ] An _npm script_ named _"server"_ that uses `nodemon`to run the API server.
+- [ x] Use _nodemon_ as a development time dependency only that is not deployed to production.
+- [ x] An _npm script_ named _"start"_ that uses `node` to run the API server.
 
 #### Build an API
 
